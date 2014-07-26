@@ -29,7 +29,7 @@ makeCacheMatrix <- function(x = matrix()) {
 # before inverting the matrix x, and storing the data. This is based on 
 # cachemean example function. Returns the inverted matrix.
 
-cacheSolve <- function (x, ...){
+cacheSolve <- function(x, ...){
         # check if anything is stored in cache already
         cache <- x$getinverted()
         if(!is.null(cache)){
